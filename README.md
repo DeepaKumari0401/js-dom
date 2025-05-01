@@ -8,9 +8,6 @@
     C.Changing css
     D.EventListener
 
-# Simple example of bulb or whatever clicking on the same button
-# Multiple events
-# selecting multiple events at the same time
 # setTimeout-
 
 # setInterval
@@ -29,19 +26,31 @@
     await
     axios
     XMLHttpRequest
+    
     if we are using any of these then the code is asynchronous else synchronous
     kai baar hamara final code  depend hota hai kisi aur ke server pe, is case me hame nahi pata hota ki ans kab tak laut ke aaega uske server se, to hm ky nahi kar sakte is writing sync code. isko face karne ya bachne ke liye hm likhte hai async code taki blocking na ho aur jab bhi ans aaye hamara answer ke respect me chanlne wala code chal jaye. async code ka main motive hota hai ki un cases me jinmein hame pata nahi hota is cod eka answer kitni der mei aaega to jab bhi ans aa jae uske ans ke respect me koi particular code chala dena
     Ex-facebook se photo leke aao aur jab aa jae to
     show kar dena
     ex-setTimeout(callback,time in miliseconds)--it is called callback function cause it will be called back after the given interval of time
 # js is not asynchronous
-    js cannot do multitasking, singlethreading not multithreading. there are two things mainstack and sidestack . jo bhii main stack me hota hai wo output karta hai and ho bhi side stack par ho
+    js cannot do multitasking, singlethreading not multithreading. there are two things mainstack and sidestack . jo bhii main stack me hota hai wo output karta hai and jo bhi side stack par hota hai wo behind the scenes processing kar sajta hai aur jab uski processing conplete ho jati hai tb main stack me lake chalaya ja sakta hai.jab main stack khali hota hai tb side stack check hota hai
+
+ **   interview- event loop main stack me side stack se data le ke aata hai
 # single threading and multithreading
+    js is single thread- capable of doing a single computation at a time.
 # callbacks 
     hamesha async code me ans aane pe chalta hai, callbacks were hard to handle so promises were found and that became complex too so async and await were found
     ex-request on facebook gives back the result when accepted
+
+used for receiving things aur ans chalane ke liye
+    then catch
+    callbacks
+    async await
+ callback hamesha ek function hota hai, ye sirf jab chalta hai jab async code ka completion ho jata hai,async code likhne ke baad unka ans chalane ke liye hota hai callbacks 
+
 # promises 
-# then and catch
+    then- and catch
+    then used when the promise is fulfilled 
 # try and catch
 # async and await
 # 5 use cases in real world

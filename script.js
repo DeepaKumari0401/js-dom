@@ -18,6 +18,8 @@ a.addEventListener("click", function(){
     a.style.color="yellow"
     a.style.backgroundColor="black"
 })
+
+//Simple example of bulb or whatever clicking on the same button
 var bulb=document.querySelector("#bulb")
 var btn=document.querySelector("button")
 var flag=0;
@@ -36,6 +38,8 @@ btn.addEventListener("click", function(){
         
     }
 })
+
+//selecting multiple events at the same time
 var h=document.querySelectorAll("h2")
 h.forEach(function(e){
     console.log(e)
@@ -53,3 +57,20 @@ console.log("Deepa")
 setTimeout(function(){
     console.log("Deeps")
 },2000)
+
+//making a new promise
+var ans= new Promise((res,rej) => {
+    if (false){
+        return res();
+    }
+    else {
+        return rej()
+    }
+})
+ans
+.then(function(){
+    console.log("solve ho gaya tha ")
+})
+.catch(function(){
+    console.log("nahi hua tha ")
+})
