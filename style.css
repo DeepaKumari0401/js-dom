@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  h1{
+    font-size: 70px;
+    font-weight: 800;
+  }
+  #bulb{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 4px solid black;
+  }
+  button{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 50px;
+  }
+  #box{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+  }
