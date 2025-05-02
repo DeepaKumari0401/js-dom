@@ -19,6 +19,7 @@
     async- sare kaam ek saath start kar do aur jiska jawab pehle aajae wo de dena.there is no order jo jitna jaldi ho jaega uska answer apne ko mil jaega
 
 # async js ky hai?
+In JavaScript, asynchronous code refers to code that allows the program to continue executing other tasks while waiting for something to finish, like fetching data from an API or reading a file.
     setTimeout
     setInterval
     promises
@@ -49,11 +50,19 @@ used for receiving things aur ans chalane ke liye
  callback hamesha ek function hota hai, ye sirf jab chalta hai jab async code ka completion ho jata hai,async code likhne ke baad unka ans chalane ke liye hota hai callbacks 
 
 # promises 
+    
     then- and catch
-    then used when the promise is fulfilled 
-# try and catch
+    then used when the promise is fulfilled .promises and statements where it runs when it is resolved, if rejected it goes to catch
+<!-- # try and catch -->
 # async and await
+    koi bhi esa function jisme app async code likhenge aur promises ka use karenge to then aur catch use karna parega. we can use async and await instend
 # 5 use cases in real world
-# concurrency and parallism
-# throttling  
+    node me jav database likhte hai mongodb ke help se tb use hota hai
+    fetch-to give call to backend to give a data
+    setTimout,setInterval - used when 3rd party is involved in it
+# concurrency-
+    js mein sync and async code ek saath process ho raha tha ye hai concurrency. dono code ek saath chal rahe the 
+# parallism- jada focus karta hai different processorsand unke cores par kaam chalane par
+
+# throttling  -kisi code ka no of executions control karna
 
